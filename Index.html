@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Praise Nkuna's web developer portfolio. Explore my skills, projects, and professional experience." />
+    <meta name="author" content="Praise Nkuna" />
+    <title>Praise Nkuna | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1a1a1a;
+            padding: 12px 24px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+            .navbar .logo img {
+                height: 50px;
+            }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+            .nav-links li {
+                margin: 0 15px;
+            }
+
+            .nav-links a {
+                color: white;
+                text-decoration: none;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+            }
+
+                .nav-links a i {
+                    margin-right: 8px;
+                }
+
+                .nav-links a:hover {
+                    color: #f0a500;
+                }
+
+        .image-section {
+            display: flex;
+            width: 100%;
+            height: 400px;
+        }
+
+        .image-box {
+            width: 50%;
+            position: relative;
+        }
+
+            .image-box img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .image-text {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 15px;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            scroll-margin-top: 80px;
+        }
+
+            section h2 {
+                font-size: 32px;
+                margin-bottom: 20px;
+                color: #1a1a1a;
+            }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+            ul li {
+                margin: 10px 0;
+            }
+
+        footer {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        .projects-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .project-card {
+            width: 300px;
+            text-align: center;
+        }
+
+            .project-card img {
+                width: 100%;
+                border-radius: 8px;
+            }
+
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+            text-align: left;
+        }
+
+            .contact-form label {
+                display: block;
+                margin-top: 15px;
+                font-weight: bold;
+            }
+
+            .contact-form input,
+            .contact-form textarea {
+                width: 100%;
+                padding: 10px;
+                margin-top: 5px;
+            }
+
+            .contact-form button {
+                margin-top: 20px;
+                padding: 12px 20px;
+                background-color: #1a1a1a;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo" />
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i>About</a></li>
+            <li><a href="#projects"><i class="fas fa-code"></i>Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="image-section">
+            <div class="image-box">
+                <img src="prz.jpg" alt="Praise Nkuna">
+                <div class="image-text">Praise Nkuna - Web Developer</div>
+            </div>
+            <div class="image-box">
+                <img src="port.jpg" alt="Creative Work">
+                <div class="image-text">Creative & Professional</div>
+            </div>
+        </div>
+        <div style="margin-top: 20px;">
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate learner in Web Development with experience building modern, responsive websites using HTML, CSS, Bootstrap, and JavaScript.</p>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>In Detail</h2>
+        <p>Let me take you through</p>
+
+        <div>
+            <h3>Summary</h3>
+            <h4>Praise Nkuna</h4>
+            <p><em>Innovative and deadline-driven Intern with 1+ years of experience designing and developing.</em></p>
+            <ul>
+                <li>Sebini Heights</li>
+                <li>0793374400</li>
+                <li>praise.nkuna@newisland.co.za</li>
+            </ul>
+
+            <h3>Professional Experience</h3>
+            <h4>Sales Assistant</h4>
+            <p><strong>2019 - 09 March 2025</strong></p>
+            <ul>
+                <li>Customer service, Point Of Sales operations, merchandising.</li>
+                <li>Promoted to second in command for shop management.</li>
+                <li>Supervised staff, managed schedules, delegated tasks.</li>
+                <li>Monitored business sales targets.</li>
+            </ul>
+
+            <h4>BMC Software Intern</h4>
+            <p><strong>17 March 2025 - Present</strong></p>
+            <ul>
+                <li>Learning Netreo.</li>
+                <li>Discovery tools.</li>
+                <li>AIOPS methodologies.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Netreo and AIOPS</li>
+            <li>Linux / Networking</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <a href="https://your-live-link.com/project1" target="_blank">
+                    <img src="port.jpg" alt="Project 1">
+                    <p>Portfolio Website</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://your-live-link.com/project2" target="_blank">
+                    <img src="folio.jpg" alt="Project 2">
+                    <p>Web App Concept</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education & Certifications</h2>
+        <p>HP Agile Project Management – NEMISA</p>
+        <p>Diploma in Information Technology – Richfield Graduate Institute of Technology</p>
+        <p>Currently studying DSOM Stack and Web Development</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p style="text-align:center;">Feel free to reach out via email or social media for collaborations or freelance work.</p>
+        <form class="contact-form" action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; Praise Designs 2025. All rights reserved.
+    </footer>
+
+</body>
+</html>
